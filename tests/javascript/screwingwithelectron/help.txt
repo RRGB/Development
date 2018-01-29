@@ -1,0 +1,9 @@
+run scripts:
+npm run <scriptname>
+
+save modules:
+npm install --save-dev <modulename>
+
+install electron:
+npm install electron -g
+npm install electron-packager -g

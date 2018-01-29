@@ -1,0 +1,9 @@
+Interfaces:
+interfaces.browserWindows
+interfaces.serialPorts
+interfaces.ipc
+
+Utilities:
+utilites.windowManager
+utilities.serialManager
+utilities.ipcManager
