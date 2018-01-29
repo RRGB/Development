@@ -5,5 +5,3 @@ servotesting-01-20-2018/ - serial communication script for testing on 01/20/18
 screwingwithelectron/ - testing and fiddling with electron
 
 skeleton1/ - making basic skeleton attempt 1
-
-dependencyHell/ - having problems with dependencies in electron. Trying to fix.
