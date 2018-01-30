@@ -1,6 +1,7 @@
 electron = require('electron');
 path = require('path');
 url = require('url');
+serial = require('serialport');
 RRGBApplicationTools = require('./js/requires/RRGBApplicationTools.js');
 
 electronApp = electron.app;
@@ -12,21 +13,19 @@ utilities  = new RRGBApplicationTools.UtilityConstructor();
 // initialization and is ready to create browser windows.
 // Some APIs can only be used after this event occurs.
 electronApp.on('ready', function(){
-  win1Id = utilities.windowManager.createWindow({width: 1000, height: 800}, path.join(__dirname, 'index.html'));
-  win2Id = utilities.windowManager.createWindow({width: 800, height: 600}, path.join(__dirname, 'index.html'));
-  win3Id = utilities.windowManager.createWindow({width: 600, height: 400}, path.join(__dirname, 'index.html'));
+  win1Id = utilities.windowManager.createWindow({width: 1000, height: 800}, path.join(__dirname, 'html/index.html'));
+  win2Id = utilities.windowManager.createWindow({width: 800, height: 600}, path.join(__dirname, 'html/index.html'));
+  win3Id = utilities.windowManager.createWindow({width: 600, height: 400}, path.join(__dirname, 'html/index.html'));
 });
 
 // Quit when all windows are closed.
-/*
-electronApp.on('window-all-closed', () => {
+electronApp.on('window-all-closed', function(){
   // On macOS it is common for applications and their menu bar
   // to stay active until the user quits explicitly with Cmd + Q
-  if (process.platform !== 'darwin') {
-    electronApp.quit()
-  }
-})
-*/
+  if(process.platform !== 'darwin'){
+    electronApp.quit();
+  };
+});
 
 /*
 electronApp.on('activate', () => {

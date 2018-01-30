@@ -1,16 +1,17 @@
 {
   "name": "RRGBUI",
-  "productName": "RRGB User Interface",
+  "productName": "RRGBUI",
   "version": "1.0.0",
   "main": "main.js",
   "devDependencies": {
     "electron": "1.7.11",
+    "electron-packager": "^10.1.2",
     "electron-rebuild": "1.7.3"
   },
   "scripts": {
     "install": "electron-rebuild",
     "start": "electron .",
-    "build": "electron-packager . --overwrite"
+    "package": "electron-packager . --overwrite"
   },
   "dependencies": {
     "serialport": "^6.0.4"
