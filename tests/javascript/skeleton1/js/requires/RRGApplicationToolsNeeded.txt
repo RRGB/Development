@@ -1,9 +1,8 @@
-Interfaces:
+Interfaces - Instances of objects that input or output data:
 interfaces.browserWindows
 interfaces.serialPorts
-interfaces.ipc
 
-Utilities:
+Utilities - Managers of :
 utilites.windowManager
 utilities.serialManager
 utilities.ipcManager

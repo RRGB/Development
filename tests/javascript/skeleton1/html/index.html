@@ -5,6 +5,11 @@
 		RRGB Alpha Testing
 	</title>
 	<script>
+	var ipcRenderer = require('electron').ipcRenderer;
+	ipcRenderer.on('data', function (event, data) {
+	    console.log(data.message);
+	    ipcRenderer.send('data', data);
+	});
 	var tellPushed = function(){
 		alert('The Button is Pushed');
 	};
