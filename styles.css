@@ -1,0 +1,33 @@
+img.line {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.btn.outline {
+  background:none;
+  padding:12px 22px;
+}
+
+.btn-primary.outline {
+  border:2px solid #000000;
+}
+
+.btn-primary.outline {
+  border:50px solid #000000;
+}
+
+1 2 3 4 5 6 7 8 9 .btn-primary.gradient {
+  background:-moz-linear-gradient(top,  #33a6cc 50%, #0099cc 50%);
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(50%,#33a6cc), color-stop(50%,#0099cc));
+  background:-webkit-linear-gradient(top,  #33a6cc 50%,#0099cc 50%);
+  background:-o-linear-gradient(top,  #33a6cc 50%,#0099cc 50%);
+  background:-ms-linear-gradient(top,  #33a6cc 50%,#0099cc 50%);
+  background:linear-gradient(to bottom,  #33a6cc 50%,#0099cc 50%);
+  filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#33a6cc', endColorstr='#0099cc',GradientType=0 );
+}
+
+:root {
+  --button-color:black;
+}
+
