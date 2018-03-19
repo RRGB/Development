@@ -1,0 +1,160 @@
+.mainpagebut {
+  width:600px;
+  height:80px;
+  font-size:30px;
+  margin-bottom:15px;
+}
+
+.msel {
+  padding:25px;
+  width:285px;
+}
+
+.mainpagetitle {
+  padding:59px 0PX 59PX 0PX;
+  font-size:63px;
+}
+
+.savepagedata {
+  text-align:center;
+}
+
+.savepagetitle {
+  padding:59px 0PX 115PX 0PX;
+}
+
+.savelabel1 {
+  font-size:18px;
+}
+
+.saveentry1 {
+  font-size:23px;
+  margin-left:10px;
+}
+
+.savelabel2 {
+  font-size:18px;
+  margin-right:19px;
+}
+
+.savelabel3 {
+  font-size:18px;
+}
+
+.savelabel4 {
+  font-size:18px;
+  margin-right:27px;
+}
+
+.saveentry2 {
+  font-size:23px;
+}
+
+.saveentry3 {
+  font-size:23px;
+  margin-left:10px;
+}
+
+.saveentry4 {
+  font-size:23px;
+}
+
+.createchordbutrow {
+  text-align:center;
+  margin:auto;
+}
+
+.pagetitle {
+  padding:40px 0PX 40PX 0PX;
+}
+
+.labelcont {
+  height:37px;
+  width:938.898px;
+  margin:auto;
+}
+
+.tablecontbox {
+  text-align:center;
+  width:156.483px;
+}
+
+.chordlab {
+  font-size:15px;
+}
+
+.msel2 {
+  padding:25px;
+  width:285px;
+}
+
+.exedropdown {
+  font-size:37px;
+  margin-bottom:11px;
+}
+
+.exerunbut {
+  padding:20px;
+  font-size:23px;
+  width:150px;
+}
+
+.navbar2 {
+  margin-bottom:73px;
+}
+
+#pedal1 {
+  color:rgb(255,255,255);
+  background-color:#000000;
+  height:50px;
+  margin:0px;
+}
+
+#pedal2 {
+  color:rgb(255,255,255);
+  background-color:#0500ff;
+  height:50PX;
+  margin:0px;
+}
+
+#pedal3 {
+  color:rgb(255,255,255);
+  background-color:#e0c900;
+  height:50PX;
+  margin:0px;
+}
+
+#pedal4 {
+  background-color:#ff0000;
+  color:rgb(255,255,255);
+  height:50PX;
+  margin:0px;
+}
+
+.pedaldropdown {
+  font-size:25px;
+  width:156px;
+  margin:0px 30px 20px 30px;
+  text-align:center;
+}
+
+.m4sel {
+  padding:25px;
+  width:201px;
+}
+
+.testrow {
+  text-align:center;
+  padding:20px;
+}
+
+.createchordbutton2 {
+  font-size:25px;
+  width:156.438px;
+  margin:0px 30px 0px 30px;
+}
+
+.dropdown1 {
+  text-align:center;
+}
+
